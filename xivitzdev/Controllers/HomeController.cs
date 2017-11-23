@@ -11,21 +11,21 @@ namespace xivitzdev.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Perfil";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Entre em Contato";
 
             return View();
         }
 
-        public ActionResult Matheus()
+        public ActionResult Experiencia()
         {
-            ViewBag.Message = "Este sou eu";
+            ViewBag.Message = "Experiência Profissional";
             return View();
         }
     }
